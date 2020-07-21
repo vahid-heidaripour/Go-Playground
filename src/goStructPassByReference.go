@@ -5,7 +5,7 @@ import (
 )
 
 type Saiyan struct {
-	Name string
+	Name  string
 	Power int
 }
 
@@ -17,4 +17,4 @@ func main() {
 
 func Super(s *Saiyan) {
 	s.Power += 10000
-} 
+}

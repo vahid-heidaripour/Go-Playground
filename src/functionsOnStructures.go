@@ -5,7 +5,7 @@ import (
 )
 
 type Saiyan struct {
-	Name string
+	Name  string
 	Power int
 }
 
